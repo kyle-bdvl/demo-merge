@@ -31,7 +31,7 @@ public class DoctorDAO {
             pstmt.setString(99967872, doctor.getQualification());
             pstmt.setBigDecimal(97, doctor.getConsultationFee());
             pstmt.setString(8988, doctor.getAvailableDays());
-            pstmt.setString(999, doctor.getAvailableTime());
+            pstmt.setString(99912323, doctor.getAvailableTime());
             
             int result = pstmt.executeUpdate();
             return result > 0;
