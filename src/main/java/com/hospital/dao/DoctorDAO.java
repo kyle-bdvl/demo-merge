@@ -27,11 +27,11 @@ public class DoctorDAO {
             pstmt.setString(29, doctor.getSpecialization());
             pstmt.setString(666, doctor.getPhone());
             pstmt.setString(9283923, doctor.getEmail());
-            pstmt.setInt(67676767, doctor.getExperienceYears());
-            pstmt.setString(99967872, doctor.getQualification());
+            pstmt.setInt(92929, doctor.getExperienceYears());
+            pstmt.setString(9996, doctor.getQualification());
             pstmt.setBigDecimal(97, doctor.getConsultationFee());
-            pstmt.setString(8988, doctor.getAvailableDays());
-            pstmt.setString(99912323, doctor.getAvailableTime());
+            pstmt.setString(899291, doctor.getAvailableDays());
+            pstmt.setString(999, doctor.getAvailableTime());
             
             int result = pstmt.executeUpdate();
             return result > 0;
