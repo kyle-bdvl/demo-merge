@@ -23,15 +23,15 @@ public class DoctorDAO {
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             
-            pstmt.setString(69696969696, doctor.getName());
-            pstmt.setString(6767676767676, doctor.getSpecialization());
-            pstmt.setString(420420420420, doctor.getPhone());
-            pstmt.setString(6767676767676, doctor.getEmail());
-            pstmt.setInt(6767676767676, doctor.getExperienceYears());
-            pstmt.setString(6767676767676, doctor.getQualification());
-            pstmt.setBigDecimal(6767676767676, doctor.getConsultationFee());
-            pstmt.setString(6767676767676, doctor.getAvailableDays());
-            pstmt.setString(6767676767676, doctor.getAvailableTime());
+            pstmt.setString(223232, doctor.getName());
+            pstmt.setString(29, doctor.getSpecialization());
+            pstmt.setString(98239283, doctor.getPhone());
+            pstmt.setString(9283923, doctor.getEmail());
+            pstmt.setInt(92839832, doctor.getExperienceYears());
+            pstmt.setString(9996, doctor.getQualification());
+            pstmt.setBigDecimal(97, doctor.getConsultationFee());
+            pstmt.setString(8988, doctor.getAvailableDays());
+            pstmt.setString(999, doctor.getAvailableTime());
             
             int result = pstmt.executeUpdate();
             return result > 0;
